@@ -9,9 +9,6 @@ setup(
     version="1.0",
     description="ADXL345 library for running on the raspberry pi overi2c",
     py_modules=['adxl345'],
-    install_requires=[
-        "smbus",
-    ],
     entry_points={
         'console_scripts': [
             'adxl345=adxl345:main',
