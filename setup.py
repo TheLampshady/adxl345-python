@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="adxl345",
-    version="1.0",
+    version="1.1",
     description="ADXL345 library for running on the raspberry pi overi2c",
     py_modules=['adxl345'],
     entry_points={

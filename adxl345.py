@@ -38,7 +38,7 @@ RANGE_16G           = 0x03
 MEASURE             = 0x08
 AXES_DATA           = 0x32
 
-class ADXL345:
+class ADXL345(object):
 
     address = None
 
